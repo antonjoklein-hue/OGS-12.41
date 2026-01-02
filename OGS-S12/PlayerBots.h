@@ -143,7 +143,7 @@ public:
 
         FDeathInfo& DeathInfo = PlayerState->DeathInfo;
 
-        DeathInfo.bDBNO = Pawn->bWasDBNOOnDeath;
+        DeathInfo.bDBNO = false;
         DeathInfo.DeathLocation = Pawn->K2_GetActorLocation();
         DeathInfo.DeathTags = Pawn->DeathTags;
         DeathInfo.Downer = KillerState ? KillerState : nullptr;
