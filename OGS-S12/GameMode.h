@@ -74,7 +74,7 @@ namespace GameMode {
 					Playlist = StaticLoadObject<UFortPlaylistAthena>("/Game/Athena/Playlists/Vamp/Playlist_Vamp_Solo.Playlist_Vamp_Solo");
 				}
 				else {
-					Playlist = StaticLoadObject<UFortPlaylistAthena>("/Game/Athena/Playlists/Playlist_DefaultSquad.Playlist_DefaultSquad");
+					Playlist = StaticLoadObject<UFortPlaylistAthena>("/Game/Athena/Playlists/Auto/Playlist_DefaultSolo.Playlist_DefaultSolo");
 				}
 				if (!Playlist) {
 					Log("Could not find playlist!");
